@@ -1,0 +1,144 @@
+*{
+    font-size: 9.5pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(77,77,77);
+    margin: 0;
+}
+
+.prime-responsible{
+    height: 1.3158in;
+    color: black;
+    font-size: 24.48pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.table-container {
+    /* Table is sized to fit on legal-sized paper.
+    This is simply convenient for printing in browser
+    and then adding into PowerPoint*/
+    width: 14in;
+    height: 8.5in;
+    /* border: solid;
+    float: left; */
+}
+
+table {
+    border-collapse: collapse;
+    /* margin-top: 1.3158in; */
+    /* Note that The measurement that defines the height of
+    the table is in the javascript file as "targetHeight" */
+    width: 100%;
+}
+
+tr {
+    height: auto;
+}
+
+td, th {
+    text-align: left;
+    padding: 6px;
+    padding-bottom: 10px;
+}
+
+td {
+    border-style: solid solid solid solid;
+    border-width: 1pt;
+    border-color: rgb(171,171,171) rgb(235,235,235) rgb(171,171,171) rgb(235,235,235);
+    vertical-align: top;
+}
+
+th {
+    border-style: solid solid solid solid;
+    border-width: 1.5pt 1pt 1.5pt 1pt;
+    border-color: rgb(77,77,77) rgb(235,235,235) rgb(77,77,77) rgb(235,235,235);
+    vertical-align: bottom;
+}
+
+td:nth-child(1), th:nth-child(1){
+    width:7%;
+    text-align: center;
+}
+
+td:nth-child(2){
+    width: 8%;
+}
+
+td:nth-child(3){
+    width: 25%;
+    font-weight: 500;
+}
+
+td:nth-last-child(2) {
+    width: 50%;
+}
+
+td:last-child {
+    width: 10%;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+.betterment-Energy{
+    background-color: #E6B569;
+    font-weight: bold;
+    color: white;
+}
+.betterment-Carbon{
+    background-color: #70727C;
+    font-weight: bold;
+    color: white;
+    border-top-color: white;
+}
+.betterment-Water{
+    background-color: #1C4D6B;
+    font-weight: bold;
+    color: white;
+}
+.betterment-Waste{
+    background-color: #A36752;
+    font-weight: bold;
+    color: white;
+}
+.betterment-HandW{
+    background-color: #8C4C61;
+    font-weight: bold;
+    color: white;
+}
+.betterment-Habitat-and-Biodiversity{
+    background-color: #6C7140;
+    font-weight: bold;
+    color: white;
+}
+.indicator-Energy{
+    background-color: #FAF0E1;
+    font-weight: bold;
+    color: #E6B569;
+}
+.indicator-Carbon{
+    background-color: #E2E3E5;
+    font-weight: bold;
+    color: #70727C;
+}
+.indicator-Water{
+    background-color: #DDE4E9;
+    font-weight: bold;
+    color: #1C4D6B;
+}
+.indicator-Waste{
+    background-color: #EDE0DC;
+    font-weight: bold;
+    color: #A36752;
+}
+.indicator-HandW{
+    background-color: #EAD9DF;
+    font-weight: bold;
+    color: #8C4C61;
+}
+.indicator-Habitat-and-Biodiversity{
+    background-color: #E5E7D4;
+    font-weight: bold;
+    color: #6C7140;
+}
